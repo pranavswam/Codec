@@ -1,0 +1,35 @@
+<!-- Fonts -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             font-style: italic;
+             font-weight:600;
+             text-decoration:overline;
+             font-size: 30px;
+             color:darkslategrey;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 4px solid ;
+            text-overflow: ellipsis;
+            text-align: center;
+        }
+        h2{
+            text-transform:uppercase;
+            text-decoration:underline;
+            text-decoration-color: red;
+            text-decoration-style:double;
+            text-decoration-thickness:3px;
+        }
+    </style>
+   <h1>.@.This is a code on CSS fonts.@.</h1>
+   <h2>Fonts CSS.</h2>
+   <p>CSS Fonts.</p>
+        
+</body>
+</html>
