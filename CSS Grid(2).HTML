@@ -1,0 +1,87 @@
+<!-- CSS Grid(2) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <h2>CSS Grid</h2>
+ <style>
+    body{
+        background-color: rgb(125, 125, 125);
+    }
+    
+    .container{
+        border:2px solid slateblue;
+        display:grid;
+        grid-template-areas: "nav nav nav" 
+                             "side article aisle"
+                             "footer footer footer";
+        
+       
+        
+        
+    }
+    .item{
+        border:2px solid;
+        width:7vh;
+        height:7vh;
+       
+        
+    }
+    .item-1{
+        width:7vh;
+        height:7vh;
+        grid-area:nav;
+        background-color: aqua;
+       
+    }
+    .item-2{
+        width:7vh;
+        height:7vh;
+        grid-area:side;
+        background-color:antiquewhite;
+       
+    }
+    .item-3{
+        width:7vh;
+        height:7vh;
+        grid-area:article;
+        background-color:blue;
+    }
+    .item-4{
+        grid-area:aisle;
+        width:7vh;
+        height:7vh;
+       
+        background-color:rgb(219, 247, 7)
+    }
+    .item-5{
+        grid-area:footer;
+        width:7vh;
+        height:7vh;
+        background-color:chartreuse
+    }
+    .item-6{
+        background-color: brown;
+        width:7vh;
+        height:7vh;
+
+    }
+    
+
+   
+   
+        
+    
+
+ </style>
+ </head>
+ <body>
+ <div class="container"><div class="item item-1">1</div>
+ <div class="item item-2">2</div>
+ <div class="item item-3">3</div>
+ <div class="item item-4">4</div>
+ <div class="item item-5">5</div>
+ <div class="item item-6">6</div></div>
+</body>
+</html>
